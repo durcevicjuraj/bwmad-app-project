@@ -71,6 +71,7 @@
 		261898DA2B6EF497002BA56D /* Card Content */ = {
 			isa = PBXGroup;
 			children = (
+				261898D82B6E388F002BA56D /* DeckView.swift */,
 				26CAC3822B67CAEF0019C2AC /* CardLegendView.swift */,
 				26745A382B65D13200424611 /* CardView.swift */,
 				26745A362B65D12500424611 /* SmallCardView.swift */,
@@ -114,7 +115,6 @@
 		263048F92B5FFD68000EBBDD = {
 			isa = PBXGroup;
 			children = (
-				261898D82B6E388F002BA56D /* DeckView.swift */,
 				263049042B5FFD68000EBBDD /* yu-gi-oh-cardex */,
 				263049032B5FFD68000EBBDD /* Products */,
 			);
