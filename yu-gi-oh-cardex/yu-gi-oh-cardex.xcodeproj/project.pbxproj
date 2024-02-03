@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261898D92B6E388F002BA56D /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261898D82B6E388F002BA56D /* DeckView.swift */; };
 		263049062B5FFD68000EBBDD /* yu_gi_oh_cardexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263049052B5FFD68000EBBDD /* yu_gi_oh_cardexApp.swift */; };
-		263049082B5FFD68000EBBDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263049072B5FFD68000EBBDD /* ContentView.swift */; };
 		2630490A2B5FFD69000EBBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263049092B5FFD69000EBBDD /* Assets.xcassets */; };
 		2630490D2B5FFD69000EBBDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2630490C2B5FFD69000EBBDD /* Preview Assets.xcassets */; };
+		263049142B600290000EBBDD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263049132B600290000EBBDD /* Card.swift */; };
+		2630491E2B600A49000EBBDD /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2630491D2B600A49000EBBDD /* CardData.swift */; };
+		263049202B601595000EBBDD /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2630491F2B601595000EBBDD /* SearchView.swift */; };
+		263049222B6015A3000EBBDD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263049212B6015A3000EBBDD /* ProfileView.swift */; };
+		263049242B6015B9000EBBDD /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263049232B6015B9000EBBDD /* MoreView.swift */; };
+		265CD4532B673546005A4EF9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CD4522B673546005A4EF9 /* Theme.swift */; };
+		26745A372B65D12500424611 /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26745A362B65D12500424611 /* SmallCardView.swift */; };
+		26745A392B65D13200424611 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26745A382B65D13200424611 /* CardView.swift */; };
+		269301E32B6C06F4002A2048 /* PackSimulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269301E22B6C06F4002A2048 /* PackSimulatorView.swift */; };
+		269301E72B6C1447002A2048 /* DecksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269301E62B6C1447002A2048 /* DecksView.swift */; };
+		269301E92B6C1459002A2048 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269301E82B6C1459002A2048 /* AboutView.swift */; };
+		269301EB2B6C1466002A2048 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269301EA2B6C1466002A2048 /* SettingsView.swift */; };
+		269301ED2B6C3C0C002A2048 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269301EC2B6C3C0C002A2048 /* LogInView.swift */; };
+		26CAC3832B67CAEF0019C2AC /* CardLegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAC3822B67CAEF0019C2AC /* CardLegendView.swift */; };
+		26CAC3872B67FD840019C2AC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAC3862B67FD840019C2AC /* UserData.swift */; };
+		26CAC3892B67FE400019C2AC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAC3882B67FE400019C2AC /* User.swift */; };
+		26CAC38B2B6823460019C2AC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAC38A2B6823460019C2AC /* RegisterView.swift */; };
+		26CFADE52B6ADB7800E05447 /* GlowBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CFADE42B6ADB7800E05447 /* GlowBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		261898D82B6E388F002BA56D /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
 		263049022B5FFD68000EBBDD /* yu-gi-oh-cardex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yu-gi-oh-cardex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		263049052B5FFD68000EBBDD /* yu_gi_oh_cardexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yu_gi_oh_cardexApp.swift; sourceTree = "<group>"; };
-		263049072B5FFD68000EBBDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		263049092B5FFD69000EBBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2630490C2B5FFD69000EBBDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		263049132B600290000EBBDD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2630491D2B600A49000EBBDD /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		2630491F2B601595000EBBDD /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		263049212B6015A3000EBBDD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		263049232B6015B9000EBBDD /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		265CD4522B673546005A4EF9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		26745A362B65D12500424611 /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
+		26745A382B65D13200424611 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		269301E22B6C06F4002A2048 /* PackSimulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackSimulatorView.swift; sourceTree = "<group>"; };
+		269301E62B6C1447002A2048 /* DecksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksView.swift; sourceTree = "<group>"; };
+		269301E82B6C1459002A2048 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		269301EA2B6C1466002A2048 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		269301EC2B6C3C0C002A2048 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		26CAC3822B67CAEF0019C2AC /* CardLegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLegendView.swift; sourceTree = "<group>"; };
+		26CAC3862B67FD840019C2AC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		26CAC3882B67FE400019C2AC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		26CAC38A2B6823460019C2AC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		26CFADE42B6ADB7800E05447 /* GlowBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +68,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261898DA2B6EF497002BA56D /* Card Content */ = {
+			isa = PBXGroup;
+			children = (
+				26CAC3822B67CAEF0019C2AC /* CardLegendView.swift */,
+				26745A382B65D13200424611 /* CardView.swift */,
+				26745A362B65D12500424611 /* SmallCardView.swift */,
+				2630491D2B600A49000EBBDD /* CardData.swift */,
+				263049132B600290000EBBDD /* Card.swift */,
+			);
+			path = "Card Content";
+			sourceTree = "<group>";
+		};
+		261898DB2B6EF4D6002BA56D /* Profile Content */ = {
+			isa = PBXGroup;
+			children = (
+				26CAC38A2B6823460019C2AC /* RegisterView.swift */,
+				269301EC2B6C3C0C002A2048 /* LogInView.swift */,
+				26CAC3862B67FD840019C2AC /* UserData.swift */,
+				26CAC3882B67FE400019C2AC /* User.swift */,
+			);
+			path = "Profile Content";
+			sourceTree = "<group>";
+		};
+		261898DC2B6EF520002BA56D /* Additional Content */ = {
+			isa = PBXGroup;
+			children = (
+				26CFADE42B6ADB7800E05447 /* GlowBorder.swift */,
+				265CD4522B673546005A4EF9 /* Theme.swift */,
+			);
+			path = "Additional Content";
+			sourceTree = "<group>";
+		};
+		261898DD2B6EF53A002BA56D /* More Content */ = {
+			isa = PBXGroup;
+			children = (
+				269301E22B6C06F4002A2048 /* PackSimulatorView.swift */,
+				269301E62B6C1447002A2048 /* DecksView.swift */,
+				269301E82B6C1459002A2048 /* AboutView.swift */,
+				269301EA2B6C1466002A2048 /* SettingsView.swift */,
+			);
+			path = "More Content";
+			sourceTree = "<group>";
+		};
 		263048F92B5FFD68000EBBDD = {
 			isa = PBXGroup;
 			children = (
+				261898D82B6E388F002BA56D /* DeckView.swift */,
 				263049042B5FFD68000EBBDD /* yu-gi-oh-cardex */,
 				263049032B5FFD68000EBBDD /* Products */,
 			);
@@ -52,7 +132,13 @@
 			isa = PBXGroup;
 			children = (
 				263049052B5FFD68000EBBDD /* yu_gi_oh_cardexApp.swift */,
-				263049072B5FFD68000EBBDD /* ContentView.swift */,
+				263049232B6015B9000EBBDD /* MoreView.swift */,
+				2630491F2B601595000EBBDD /* SearchView.swift */,
+				263049212B6015A3000EBBDD /* ProfileView.swift */,
+				261898DD2B6EF53A002BA56D /* More Content */,
+				261898DC2B6EF520002BA56D /* Additional Content */,
+				261898DB2B6EF4D6002BA56D /* Profile Content */,
+				261898DA2B6EF497002BA56D /* Card Content */,
 				263049092B5FFD69000EBBDD /* Assets.xcassets */,
 				2630490B2B5FFD69000EBBDD /* Preview Content */,
 			);
@@ -137,8 +223,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263049082B5FFD68000EBBDD /* ContentView.swift in Sources */,
+				269301EB2B6C1466002A2048 /* SettingsView.swift in Sources */,
+				26CAC3892B67FE400019C2AC /* User.swift in Sources */,
+				26CFADE52B6ADB7800E05447 /* GlowBorder.swift in Sources */,
+				269301E92B6C1459002A2048 /* AboutView.swift in Sources */,
+				269301E32B6C06F4002A2048 /* PackSimulatorView.swift in Sources */,
+				263049202B601595000EBBDD /* SearchView.swift in Sources */,
+				26CAC38B2B6823460019C2AC /* RegisterView.swift in Sources */,
+				263049222B6015A3000EBBDD /* ProfileView.swift in Sources */,
+				269301E72B6C1447002A2048 /* DecksView.swift in Sources */,
+				269301ED2B6C3C0C002A2048 /* LogInView.swift in Sources */,
+				26745A372B65D12500424611 /* SmallCardView.swift in Sources */,
+				263049142B600290000EBBDD /* Card.swift in Sources */,
+				26CAC3832B67CAEF0019C2AC /* CardLegendView.swift in Sources */,
+				26CAC3872B67FD840019C2AC /* UserData.swift in Sources */,
+				26745A392B65D13200424611 /* CardView.swift in Sources */,
+				2630491E2B600A49000EBBDD /* CardData.swift in Sources */,
+				261898D92B6E388F002BA56D /* DeckView.swift in Sources */,
+				265CD4532B673546005A4EF9 /* Theme.swift in Sources */,
 				263049062B5FFD68000EBBDD /* yu_gi_oh_cardexApp.swift in Sources */,
+				263049242B6015B9000EBBDD /* MoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,9 +9,46 @@ import SwiftUI
 
 @main
 struct yu_gi_oh_cardexApp: App {
+    
+    @StateObject var cardData = CardData()
+    @StateObject var theme = Theme()
+    @StateObject var userData = UserData()
+    
+    @State private var selectedTab = 1
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView(selection: $selectedTab) {
+                        MoreView()
+                            .tabItem {
+                                Label("More", systemImage: "ellipsis.circle")
+                            }
+                            .tag(0)
+                            .toolbarBackground(theme.isDark ? theme.darkColor : theme.whiteColor, for: .tabBar)
+                            .toolbarBackground(.visible, for: .tabBar)
+                        SearchView()
+                            .tabItem {
+                                Label("Search", systemImage: "magnifyingglass.circle")
+                            }
+                            .tag(1)
+                            .toolbarBackground(theme.isDark ? theme.darkColor : theme.whiteColor, for: .tabBar)
+                            .toolbarBackground(.visible, for: .tabBar)
+                        ProfileView()
+                            .tabItem {
+                                Label("Profile", systemImage: "person.circle.fill")
+                            }
+                            .tag(2)
+                            .toolbarBackground(theme.isDark ? theme.darkColor : theme.whiteColor, for: .tabBar)
+                            .toolbarBackground(.visible, for: .tabBar)
+            }
+            .accentColor(.red)
+            .environmentObject(cardData)
+            .environmentObject(theme)
+            .environmentObject(userData)
+            .task {
+                await cardData.fetchCards()
+                await userData.fetchUsers()
+            }
         }
     }
 }
