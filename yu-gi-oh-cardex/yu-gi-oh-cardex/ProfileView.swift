@@ -58,12 +58,9 @@ struct ProfileView: View {
                         
                         Button(action: {
                             userData.isLoggedIn = !userData.isLoggedIn
-                            let tempUser : User = userData.loggedInUser
                             Task{
-                                await userData.updateUser(user: tempUser )
+                                await userData.updateUser(newUser: userData.loggedInUser )
                             }
-                            userData.loggedInUser = userData.NotLoggedUser
-                            
                         }){
                             RoundedRectangle(cornerRadius: 25)
                                 .fill(theme.LogButtonColor)

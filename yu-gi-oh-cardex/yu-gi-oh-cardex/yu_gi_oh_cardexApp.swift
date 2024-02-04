@@ -3,7 +3,7 @@
 //  yu-gi-oh-cardex
 //
 //  Created by Juraj Đurčević on 23.01.2024..
-//
+//  2355 lines of code in total
 
 import SwiftUI
 
